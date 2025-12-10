@@ -64,7 +64,7 @@ data:
       - provider_id: vllm-granite-3-2-8b-instruct
         provider_type: "remote::vllm"
         config:
-          url: https://litellm.apps.maas.redhatworkshops.io/v1
+          url: https://litellm-prod.apps.maas.redhatworkshops.io/v1
           context_length: 4096
           api_token: \${env.DEFAULT_MODEL_API_TOKEN}
           tls_verify: true
