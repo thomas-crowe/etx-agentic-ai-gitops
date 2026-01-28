@@ -1,14 +1,14 @@
 ---
-namespace: userX-ai-agent
+namespace: user4-ai-agent
 registry: image-registry.openshift-image-registry.svc:5000
 application_name: ai-agent
 
 # Agent Configuration
 agentConfig:
   clientTimeout: "600.0"
-  llamaStackUrl: "http://userX-llama-stack-service.userX-llama-stack.svc.cluster.local:8321"
+  llamaStackUrl: "http://user4-llama-stack-service.user4-llama-stack.svc.cluster.local:8321"
   maxInferIterations: "50"
   maxTokens: "5000"
   modelId: "granite-3-2-8b-instruct"
   temperature: "0.0"
-  githubOwner: "your-github-username"
+  githubOwner: "thomas-crowe"
